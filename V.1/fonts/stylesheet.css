@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('CaviarDreams-webfont.eot');
+    src: url('CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CaviarDreams-webfont.woff') format('woff'),
+         url('CaviarDreams-webfont.ttf') format('truetype'),
+         url('CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geosanslightregular';
+    src: url('geosanslight-webfont.eot');
+    src: url('geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('geosanslight-webfont.woff2') format('woff2'),
+         url('geosanslight-webfont.woff') format('woff'),
+         url('geosanslight-webfont.ttf') format('truetype'),
+         url('geosanslight-webfont.svg#geosanslightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'matilderegular';
+    src: url('matilde-webfont.eot');
+    src: url('matilde-webfont.eot?#iefix') format('embedded-opentype'),
+         url('matilde-webfont.woff2') format('woff2'),
+         url('matilde-webfont.woff') format('woff'),
+         url('matilde-webfont.ttf') format('truetype'),
+         url('matilde-webfont.svg#matilderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
