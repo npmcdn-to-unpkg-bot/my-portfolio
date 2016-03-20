@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Background Test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+	<!-- FAVICON -->  <!-- WILL NEED TO CHANGE DIRECTORY FOLDER LINK -->
+	<link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="img/favicon.ico">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
+
+
+<!-- Custom CSS -->
+    <!-- <link href="css/thumbnail-gallery.css" rel="stylesheet"> -->
+	<!-- <script type="text/javascript" src="js/modernizr.custom.29473.js"></script> -->
+
+</head>
+<body>
+	<div class="container">
+		<div class="content">
+			<div class="jumbotron">
+            	<div class=" letters">
+					<span class="c">c</span>
+					<span class="one">hristine</span>
+					<span class="t">t</span>
+					<span class="two">rant</span>
+                </div>
+			</div>
+			<div style="clear: both"></div>
+
+			<div class="header header_1">
+				<p>"Everything stinks till it's finished." ~ Dr. Seuss</p>
+			</div>
+			<svg class="slanted" viewbox="0 0 100 5" preserveAspectRatio="none">
+  				<polygon class="shape1" points="0,0 100,0 0,5, 0,15" /></polygon>
+			</svg>
+
+			<div class="section-1">
+				<div class="row">
+					<div class="col-xs-2">	
+						<span class="fa-stack fa-2x">
+	  						<i class="fa fa-square fa-stack-2x"></i>
+	  						<i class="fa fa-user fa-stack-1x fa-inverse"></i>
+						</span>
+					</div>
+					<div class="col-xs-10">
+					<h3>Hi there!</h3>
+					<p>I'm Christine, I am a web &amp; print designer / front-end developer.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+						<span class="fa-stack fa-2x">
+					  		<i class="fa fa-square fa-stack-2x"></i>
+					  		<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+						</span>
+					</div>
+					<div class="col-xs-10">
+						<h3>christinetrant@gmail.com</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+						<span class="fa-stack fa-2x">
+					  		<i class="fa fa-square fa-stack-2x"></i>
+					  		<i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+						</span>
+					</div>
+					<div class="col-xs-10">
+						<h3>I'm a London-Irish girl based in Perth, Australia.</h3>
+						<p>I love books, adore coffee, have a passion for anything creative. I am a Pinterest addict &amp; a gadget junkie.  I have a BSc. in Computer Science and a Higher National Diploma in Digital Media trying to make my imprint on the digital world.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="section-2">
+				<div class="header header_2">
+					<p>About Me / My Resume</p>
+				</div>
+				<svg class="slanted" viewbox="0 0 100 5" preserveAspectRatio="none">
+	  				<polygon class="shape2" points="0,0 100,0 100,5, 0,0" /></polygon>
+				</svg>
+
+				<div class="row">
+					<div class="col-xs-8">
+					<h3>Column 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+					</div>
+					<div class="col-xs-4"><h3>CV</h3><p>View my CV PDF link</p></div>
+				</div>
+			</div>
+
+			<div class="section-3">
+				<div class="header header_3">
+					<p>Portfolio</p>
+				</div>
+				<svg class="slanted" viewbox="0 0 100 5" preserveAspectRatio="none">
+	  				<polygon class="shape3" points="0,0 100,0 0,5, 0,15" /></polygon>
+				</svg>
+
+				
+
+
+<!-- #contact calls to javascript & jquery, data toggle to modal so it knows what action to trigger -->
+        <li><a href="#2col" data-toggle="modal">Test</a></li>  
+
+
+
+
+<!-- #contact calls to javascript & jquery, data toggle to modal so it knows what action to trigger -->
+        <p><a href="#contact" data-toggle="modal">Contact</a></p> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Filter selection -->
+<form id="filter">
+  <fieldset>
+    <legend>Filter by type</legend>
+    <label><input type="radio" name="type" value="all" checked="checked">Everything</label>
+    <label><input type="radio" name="type" value="app">Applications</label>
+    <label><input type="radio" name="type" value="util">Utilities</label>
+  </fieldset>
+ <!--  <fieldset>
+    <legend>Sort by</legend>
+    <label><input type="radio" name="sort" value="size" checked="checked">Size</label>
+    <label><input type="radio" name="sort" value="name">Name</label>      
+  </fieldset> -->
+</form>
+
+<ul id="applications" class="image-grid">
+  <li data-id="id-1" data-type="util">
+    <img src="images/3.jpg" width="128" height="128" alt="" />
+    <strong>Activity Monitor</strong>
+    <span data-type="size">348 KB</span>
+  </li>
+  <li data-id="id-2" data-type="app">
+    <img src="images/4.jpg" width="128" height="128" alt="" />
+    <strong>Address Book</strong> 
+    <span data-type="size">1904 KB</span>
+  </li>
+  <li data-id="id-3" data-type="app">
+    <img src="images/4.jpg" width="128" height="128" alt="" />
+    <strong>Finder</strong> 
+    <span data-type="size">1337 KB</span>
+  </li>
+  <li data-id="id-4" data-type="app">
+    <img src="images/4.jpg" width="128" height="128" alt="" />
+    <strong>Front Row</strong> 
+    <span data-type="size">401 KB</span>
+  </li>
+  <li data-id="id-5" data-type="app">
+    <img src="images/4.jpg" width="128" height="128" alt="" />
+    <strong>Google Pokémon</strong> 
+    <span data-type="size">12875 KB</span>
+  </li>
+  <li data-id="id-6" data-type="app">
+    <img src="images/4.jpg" width="128" height="128" alt="" />
+    <strong>iCal</strong> 
+    <span data-type="size">5273 KB</span>
+  </li>
+  <li data-id="id-7" data-type="app">
+    <img src="images/4.jpg" width="128" height="128" alt="" />
+    <strong>iChat</strong> 
+    <span data-type="size">5437 KB</span>
+  </li>
+  <li data-id="id-8" data-type="app">
+    <img src="images/4.jpg" width="128" height="128" alt="" />
+    <strong>Interface Builder</strong> 
+    <span data-type="size">2764 KB</span>
+  </li>
+  <li data-id="id-9" data-type="app">
+    <img src="images/4.jpg" width="128" height="128" alt="" />
+    <strong>iTuna</strong> 
+    <span data-type="size">17612 KB</span>
+  </li>
+  <li data-id="id-10" data-type="util">
+    <img src="images/3.jpg" width="128" height="128" alt="" />
+    <strong>Keychain Access</strong> 
+    <span data-type="size">972 KB</span>
+  </li>
+  <li data-id="id-11" data-type="util">
+    <img src="images/3.jpg" width="128" height="128" alt="" />
+    <strong>Network Utility</strong> 
+    <span data-type="size">245 KB</span>
+  </li>
+  <li data-id="id-12" data-type="util">
+    <img src="images/3.jpg" width="128" height="128" alt="" />
+    <strong>Sync</strong> 
+    <span data-type="size">3788 KB</span>
+  </li>
+  <li data-id="id-13" data-type="app">
+    <img src="images/4.jpg" width="128" height="128" alt="" />
+    <strong>TextEdit</strong> 
+    <span data-type="size">1669 KB</span>
+  </li>
+</ul>
+
+
+
+
+
+
+<div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Put Nav Bar here :) use jquery</h1>
+                <p>fix borders &amp; stuff</p>
+                <p>figure out thumbnail image how it works</p>
+            </div>
+
+            <div class="col-lg-4 col-xs-6 thumb">
+                <a class="thumbnail" href="images/400x300.png" title="your title">
+                    <img class="img-responsive" src="images/400x300.png" alt="fghrthysrtsr">
+                </a>
+            </div>
+            
+            <div class="col-lg-4 col-xs-6 thumb">
+                <a class="thumbnail" href="images/400x300.png" title="Your title">
+                    <img class="img-responsive" src="images/400x300.png" alt="fghrthysrtsr">
+                </a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb">
+                <a class="thumbnail" href="images/400x300.png">
+                    <img class="img-responsive" src="images/400x300.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb">
+                <a class="thumbnail" href="images/400x300.png">
+                    <img class="img-responsive" src="images/400x300.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb all 2">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb all 2">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb all 3">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb all 1">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb all 3">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb all 1">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb all 2">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb all 3">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+        </div>
+
+
+
+
+<div style="clear: both"></div>
+
+			<div class="section-4">
+				<div class="header header_4">
+					<p>Contact</p>
+				</div>
+				<svg class="slanted" viewbox="0 0 100 5" preserveAspectRatio="none">
+	  				<polygon class="shape4" points="0,0 100,0 100,5, 0,0" /></polygon>
+				</svg>
+
+				<div class="row">
+					<div class="col-xs-4">
+						<h3>Column 1</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+					</div>
+					<div class="col-xs-4">
+						<h3>Column 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+					</div>
+					<div class="col-xs-4">
+						<h3>Column 3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+					</div>
+				</div>
+			</div>
+
+			<footer>
+        		<p class="text-muted">All images &copy; Christine Trant | <a class="text-muted" href="http://ie.linkedin.com/in/christinetrant">LinkedIn</a> | <a class="text-muted" href="http://www.pinterest.com/christinetrant/">Pinterest</a></p>
+    		</footer>
+	</div>
+
+
+
+
+	<!--##### Bootstrap Core Javascript ##### -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<!-- #Contact dialog box Script -->
+<div class="modal fade" id="contact" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4>Contact</h4>
+      </div>
+      <div class="modal-body">
+        <p>For general enquiries please email christinetrant@gmail.com</p>
+      </div>
+      <div class="modal-footer">
+        <!-- data-dismiss=modal means close the modal when button is clicked -->
+        <a class="btn btn-primary" data-dismiss="modal">Close</a>
+      </div>
+    </div>
+  </div>
+  <!-- End #Contact Dialog Box Script -->
+</div>
+
+
+
+
+
+<!-- #2colum test dialog box Script -->
+<div class="modal fade" id="2col" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <a class="btn btn-primary" data-dismiss="modal">X</a>
+        <div class="row">
+
+      	<!-- Column 1 -->
+	    <div class="col-xs-5">
+	      <h1>Title</h1>
+	      <div class="divide"></div>
+	        <p>My text goes here</p>
+	      </div>
+	      <!-- Column 2 -->
+          <div class="col-xs-7">
+	      	<img class="img-responsive" src="images/400x300.png" alt="">
+	    </div>
+      </div>
+      <div class="modal-footer">
+        <!-- data-dismiss=modal means close the modal when button is clicked -->
+        <a class="btn btn-primary" data-dismiss="modal">X</a>
+      </div>
+    </div>
+  </div>
+  <!-- End #Contact Dialog Box Script -->
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery.quicksand.js"></script>
+<script src="js/quicksand.js"></script>
+
+
+<script>
+
+    // Custom sorting plugin
+(function($) {
+  $.fn.sorted = function(customOptions) {
+    var options = {
+      reversed: false,
+      by: function(a) { return a.text(); }
+    };
+    $.extend(options, customOptions);
+    $data = $(this);
+    arr = $data.get();
+    arr.sort(function(a, b) {
+      var valA = options.by($(a));
+      var valB = options.by($(b));
+      if (options.reversed) {
+        return (valA < valB) ? 1 : (valA > valB) ? -1 : 0;				
+      } else {		
+        return (valA < valB) ? -1 : (valA > valB) ? 1 : 0;	
+      }
+    });
+    return $(arr);
+  };
+})(jQuery);
+
+// DOMContentLoaded
+$(function() {
+
+  // bind radiobuttons in the form
+  var $filterType = $('#filter input[name="type"]');
+  var $filterSort = $('#filter input[name="sort"]');
+
+  // get the first collection
+  var $applications = $('#applications');
+
+  // clone applications to get a second collection
+  var $data = $applications.clone();
+
+  // attempt to call Quicksand on every form change
+  $filterType.add($filterSort).change(function(e) {
+    if ($($filterType+':checked').val() == 'all') {
+      var $filteredData = $data.find('li');
+    } else {
+      var $filteredData = $data.find('li[data-type=' + $($filterType+":checked").val() + ']');
+    }
+
+    // if sorted by size
+    if ($('#filter input[name="sort"]:checked').val() == "size") {
+      var $sortedData = $filteredData.sorted({
+        by: function(v) {
+          return parseFloat($(v).find('span[data-type=size]').text());
+        }
+      });
+    } else {
+      // if sorted by name
+      var $sortedData = $filteredData.sorted({
+        by: function(v) {
+          return $(v).find('strong').text().toLowerCase();
+        }
+      });
+    }   
+
+    // finally, call quicksand
+    $applications.quicksand($sortedData, {
+      duration: 800,
+      easing: 'easeInOutQuad'
+    });
+
+  });
+
+});
+
+</script>
+
+
+</div>
+</body>
+</html>
